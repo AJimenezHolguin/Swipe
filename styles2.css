@@ -6,7 +6,7 @@
 }
 /* SECCIÓN 1 */
 /* MOBILE SCREEN */
- .background-header {
+.background-header {
   width: 100%;
   height: 250px; /* Ajusta la altura según tus necesidades */
   background: linear-gradient(40deg, #ef008f, #ffba27, #6ec3f4, #7038ff);
@@ -119,7 +119,7 @@
   }
 }
 /* TABLE SCREEN */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .background-header {
     background: linear-gradient(40deg, #ef008f, #ffba27, #6ec3f4, #7038ff);
     width: 100%;
@@ -153,8 +153,6 @@
   .sponsors-logo {
     width: 160px;
   }
-}
-@media (min-width: 769px) {
   .material-symbols-outlined {
     display: none;
   }
@@ -228,7 +226,6 @@
     margin-top: 45px;
     width: 100%;
   }
-
   .button-start:hover {
     cursor: pointer;
     background: rgba(10, 37, 64, 0.7);
@@ -237,7 +234,6 @@
     transform: translate(7px);
     transition: transform 0.25s ease;
   }
-
   .button-end:hover {
     cursor: pointer;
     color: rgb(112, 0, 255);
