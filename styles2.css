@@ -146,10 +146,11 @@
 }
 .images {
   width: 100%;
+  height: 100%;
   display: flex;
   padding: 50px 16px 0px;
   gap: 0 25px;
-  background-color: #f7f9fc;
+  background-color: #f7f9fc; 
 }
 .card-phone {
   width: 100%;
@@ -157,14 +158,14 @@
   flex-direction: column;
   align-items: center;
   width: 30%;
-  gap: 35px;
+  gap: 35px; 
 }
 .credit-card {
-  width: 75px;
+  width: 100%;
   border-radius: 20px;
 }
 .phone {
-  width: 75px;
+  width: 100%;
 }
 .invoice-dash {
   width: 70%;
@@ -173,12 +174,14 @@
   align-items: center;
 }
 .invoice {
-  width: 182px;
+  width: 100%;
+  height: 100%;
   margin-bottom: 30px;
   border-radius: 20px;
 }
 .dash {
-  width: 182px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -189,7 +192,7 @@
   }
   .img-hero {
     display: flex;
-    width: 400px;
+    width: auto;
     height: 350px;
   }
   .logosimg {
@@ -215,19 +218,19 @@
     align-items: flex-start;
   }
   .credit-card {
-    width: 141px;
+    width: 100%;
     border-radius: 40px;
   }
   .phone {
-    width: 141px;
+    width: 100%;
   }
   .invoice {
-    width: 310px;
+    width: 100%;
     margin-bottom: 30px;
     border-radius: 20px;
   }
   .dash {
-    width: 310px;
+    width: 100%;
     border-radius: 20px;
   }
   
@@ -243,7 +246,7 @@
   }
   .img-hero {
     display: flex;
-    width: 450px;
+    width: auto;
     height: 400px;
   }
   .sponsors-logo {
@@ -292,20 +295,20 @@
     width: 49%;
   }
   .credit-card {
-    width: 220px;
+    width: 100%;
     margin-bottom: 15px;
     border-radius: 40px;
   }
   .phone {
-    width: 220px;
+    width: 100%;
   }
   .invoice {
-    width: 440px;
+    width: 100%;
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
-    width: 440px;
+    width: 100%;
     border-radius: 20px;
   }
   
@@ -355,7 +358,7 @@
     opacity: 0.8;
   }
   .img-hero {
-    width: 650px;
+    width:auto;
     height: 600px;
   }
   .sponsors-logo {
@@ -395,36 +398,35 @@
 
   .card-phone {
     width: 38%;
+    display:flex;
+    flex:0 0 auto;
   }
   .invoice-dash {
     width: 100%;
-    height: 130vh;
     padding-left: 30px;
   }
   .credit-card {
-    width: 340px;
+    width: 100%;
     margin-bottom: 15px;
     border-radius: 20px;
   }
   .phone {
-    width: 340px;
-    height: 90vh;
+    width: 100%;
+   
   }
   .invoice {
     width: 100%;
-    height: 50%;
+   
 
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
     width: 100%;
-    height: 50%;
     border-radius: 20px;
   }
   .images {
     width: 100%;
-    height: 145vh;
     display: flex;
     padding: 50px 16px 0px;
     gap: 0;
