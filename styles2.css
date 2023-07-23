@@ -98,9 +98,6 @@
 .sponsors-logo {
   width: 140px;
 }
-.background-section_2{
-  background-color: #f7f9fc;
-}
 .unified-section_2 {
   width: 100%;
   margin-top: 60px;
@@ -151,7 +148,6 @@
   display: flex;
   padding: 50px 16px 0px;
   gap: 0 25px;
-  background-color: #f7f9fc; 
 }
 .card-phone {
   width: 100%;
@@ -431,7 +427,6 @@
     display: flex;
     padding: 50px 16px 0px;
     gap: 0;
-    background-color: #f7f9fc;
   }
   
 .general-container,
