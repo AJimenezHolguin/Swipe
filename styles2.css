@@ -98,11 +98,13 @@
 .sponsors-logo {
   width: 140px;
 }
-
+.background-section_2{
+  background-color: #f7f9fc;
+  /* height:2400px; */
+}
 .unified-section_2 {
   width: 100%;
   margin-top: 60px;
-  background-color: #f7f9fc;
 }
 .section-container {
   width: 100%;
@@ -182,6 +184,10 @@
   height:100%;
   border-radius: 20px;
 }
+.background-2_3{
+  background-color: #f7f9fc;
+  max-height:210px;
+}
 .designed-for_engineers_3 {
   width: 100%;
 }
@@ -196,6 +202,7 @@
   height: 100%;
   transform: skewY(9deg);
   padding: 70px 16px 0px;
+
 }
 .subtitle2 {
   color: #00D4FF;
