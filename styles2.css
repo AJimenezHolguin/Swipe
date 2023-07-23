@@ -606,6 +606,9 @@
     height: 1050px;
     transform: skewY(-10deg) translateY(-20px);
   }
+  .designed{
+    transform: skewY(10deg);
+  }
   .section-container_designed,
   .images-container_designed {
     padding: 200px 15px;
