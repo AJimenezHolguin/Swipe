@@ -155,7 +155,7 @@
   flex-direction: column;
   align-items: center;
   width: 30%;
-  gap: 35px; 
+  gap: 35px;
 }
 .credit-card {
   width: 100%;
@@ -172,16 +172,13 @@
 }
 .invoice {
   width: 100%;
-  height: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-radius: 20px;
 }
 .dash {
   width: 100%;
-  height: 100%;
   border-radius: 20px;
 }
-
 
 @media (min-width: 550px) {
   .menu {
@@ -215,22 +212,21 @@
     align-items: flex-start;
   }
   .credit-card {
-    width: 100%;
+    height: 100%;
     border-radius: 40px;
   }
   .phone {
-    width: 100%;
+    height: 100%;
   }
   .invoice {
-    width: 100%;
+    height: 100%;
     margin-bottom: 30px;
     border-radius: 20px;
   }
   .dash {
-    width: 100%;
+    height: 100%;
     border-radius: 20px;
   }
-  
 }
 /* TABLET */
 @media (min-width: 768px) {
@@ -292,23 +288,22 @@
     width: 49%;
   }
   .credit-card {
-    width: 100%;
+    height: 100%;
     margin-bottom: 15px;
     border-radius: 40px;
   }
   .phone {
-    width: 100%;
+    height: 100%;
   }
   .invoice {
-    width: 100%;
+    height: 100%;
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
-    width: 100%;
+    height: 100%;
     border-radius: 20px;
   }
-  
 }
 
 /* DESKTOP SCREEN */
@@ -355,7 +350,7 @@
     opacity: 0.8;
   }
   .img-hero {
-    width:auto;
+    width: auto;
     height: 600px;
   }
   .sponsors-logo {
@@ -395,31 +390,28 @@
 
   .card-phone {
     width: 38%;
-    display:flex;
-    flex:0 0 auto;
+    display: flex;
+    flex: 0 0 auto;
   }
   .invoice-dash {
     width: 100%;
     padding-left: 30px;
   }
   .credit-card {
-    width: 100%;
+    height: 100%;
     margin-bottom: 15px;
     border-radius: 20px;
   }
   .phone {
-    width: 100%;
-   
+    height: 100%;
   }
   .invoice {
-    width: 100%;
-   
-
+    height: 100%;
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
-    width: 100%;
+    height: 100%;
     border-radius: 20px;
   }
   .images {
@@ -428,8 +420,8 @@
     padding: 50px 16px 0px;
     gap: 0;
   }
-  
-.general-container,
+
+  .general-container,
   .unified-section_2,
   .designed {
     max-width: 1450px;
@@ -452,7 +444,6 @@
   .purple-font:hover {
     color: rgb(68, 92, 112);
   }
- 
 }
 /* ANIMATION BACKGROUND */
 @keyframes mybackground {
