@@ -98,11 +98,13 @@
 .sponsors-logo {
   width: 140px;
 }
-
+.background-section_2{
+  background-color: #f7f9fc;
+  height:2400px;
+}
 .unified-section_2 {
   width: 100%;
   margin-top: 60px;
-  background-color: #f7f9fc;
 }
 .section-container {
   width: 100%;
