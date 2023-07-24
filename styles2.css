@@ -35,7 +35,6 @@
 .botonppal {
   display: none;
 }
-
 .section-container_baner {
   width: 100%;
   margin-top: 70px;
@@ -90,13 +89,97 @@
   display: none;
 }
 .logosimg {
+  padding-top: 60px;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  justify-items: center;
 }
 .sponsors-logo {
   width: 140px;
+}
+.unified-section_2 {
+  width: 100%;
+  margin-top: 60px;
+}
+.section-container {
+  width: 100%;
+  padding: 0px 16px;
+}
+.unified-paragraph {
+  margin: 30px 0;
+  padding-top: 40px;
+  color: #6962f7;
+}
+.payment-products_title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 43px;
+  margin-bottom: 45px;
+}
+.one-paragraph,
+.two-paragraph {
+  width: 100%;
+  margin: 16px 0 35px;
+  line-height: 25px;
+}
+.purple-font {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6962f7;
+  cursor: pointer;
+}
+.button-start_now {
+  margin: 16px auto;
+  padding: 7px 14px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #6962f7;
+}
+.images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 16px 0px;
+  gap: 0 25px;
+}
+
+.card-phone {
+  width: 60%;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.credit-card {
+  width: 110%;
+  border-radius: 15px;
+}
+.phone {
+  width: 80%;
+}
+.invoice-dash {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.invoice {
+  width: 125%;
+  margin-bottom: 35px;
+  border-radius: 15px;
+}
+.dash {
+  width: 125%;
+  border-radius: 15px;
 }
 
 @media (min-width: 550px) {
@@ -105,50 +188,61 @@
   }
   .img-hero {
     display: flex;
-    width: 400px;
+    width: auto;
     height: 350px;
   }
   .logosimg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 0;
     justify-content: center;
   }
   .sponsors-logo {
     width: 140px;
   }
+  .card-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 15px;
+  }
+  .invoice-dash {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  .credit-card {
+    height: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+  .phone {
+    height: 100%;
+  }
+  .invoice {
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .dash {
+    height: 300px;
+    border-radius: 20px;
+  }
 }
-/* TABLE SCREEN */
-@media (min-width: 769px) {
+/* TABLET */
+@media (min-width: 768px) {
   .background-header {
-    background: linear-gradient(40deg, #ef008f, #ffba27, #6ec3f4, #7038ff);
-    width: 100%;
-    height: 220px; /* Ajusta la altura según tus necesidades */
-    position: absolute;
-    background-size: 150% 150%;
-    background-repeat: no-repeat;
-    animation-name: mybackground;
-    animation-duration: 13s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    transform: skewY(-7deg); /* Inclina el contenedor */
-    transform-origin: 0;
-    z-index: -1;
+    height: 220px; /*Ajusta la altura según tus necesidades */
+    transform: skewY(-7deg); /*Inclina el contenedor*/
   }
   .menu {
     padding: 10px 40px 0px 0px;
   }
   .img-hero {
     display: flex;
-    width: 450px;
+    width: auto;
     height: 400px;
-  }
-  .logosimg {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    justify-content: center;
   }
   .sponsors-logo {
     width: 160px;
@@ -182,24 +276,60 @@
     padding: 10px;
     text-decoration: none;
   }
+  .payment-products_title {
+    width: 50%;
+    font-size: 33px;
+  }
+  .two-column {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+  }
+  .col-left,
+  .col-right {
+    width: 49%;
+  }
+  .images {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card-phone {
+    width: 40%;
+    margin-right: 30px;
+  }
+  .invoice-dash {
+    width: 44%;
+    margin-left: 25px;
+  }
+  .credit-card {
+    height: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+  .phone {
+    height: 480px;
+  }
+  .invoice {
+    height: 300px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+  }
+  .dash {
+    height: 300px;
+    border-radius: 20px;
+  }
 }
+
 /* DESKTOP SCREEN */
 @media (min-width: 1024px) {
   .background-header {
-    background: linear-gradient(40deg, #ef008f, #ffba27, #6ec3f4, #7038ff);
-    width: 100%;
-    height: 474px; /* Ajusta la altura según tus necesidades */
-    position: absolute;
-    background-size: 150% 150%;
-    background-repeat: no-repeat;
-    animation-name: mybackground;
-    animation-duration: 13s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
+    height: 430px; /* Ajusta la altura según tus necesidades */
     transform: skewY(-9deg); /* Inclina el contenedor */
-    transform-origin: 0;
-    z-index: -1;
   }
+
   .letter {
     color: white;
     font-weight: bold;
@@ -217,14 +347,11 @@
     background: rgba(252, 250, 250, 0.5);
   }
   .payments-title {
-    width: 100%;
-    font-size: 80px;
+    font-size: 65px;
   }
   .payments-paragraph {
     font-size: 20px;
-    line-height: 26px;
     margin-top: 45px;
-    width: 100%;
   }
   .button-start:hover {
     cursor: pointer;
@@ -240,19 +367,110 @@
     opacity: 0.8;
   }
   .img-hero {
-    display: flex;
-    width: 650px;
+    width: auto;
     height: 600px;
-  }
-  .logosimg {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    justify-content: center;
   }
   .sponsors-logo {
     width: 200px;
+  }
+  .payment-products_title {
+    width: 50%;
+  }
+  .two-column {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+  }
+  .col-left,
+  .col-right {
+    width: 49%;
+  }
+  .purple-font {
+    text-decoration: none;
+    color: #6962f7;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .purple-font:hover {
+    color: rgb(68, 92, 112);
+  }
+  .button-start_now {
+    cursor: pointer;
+  }
+  .button-start_now:hover {
+    background: rgb(68, 92, 112);
+  }
+  .button-start_now:hover > .arrow-two {
+    transform: translate(7px);
+    transition: transform 0.25s ease;
+  }
+  .images {
+    width: 90%;
+    margin: 40px 0px;
+    display: flex;
+    padding: 50px 16px 0px;
+    gap: 0;
+  }
+  .card-phone {
+    width: 40%;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0 16px;
+  }
+  .invoice-dash {
+    width: 50%;
+    padding: 0 10px;
+    margin-left: 70px;
+  }
+  .credit-card {
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  .phone {
+    height: 610px;
+  }
+  .invoice {
+    height: 415px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+  }
+  .dash {
+    height: 415px;
+    border-radius: 20px;
+  }
+
+  .general-container,
+  .unified-section_2,
+  .designed {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+}
+/* PANTALLAS MAS GRANDES */
+@media (min-width: 1365px) {
+  .background-header {
+    height: 474px; /* Ajusta la altura según tus necesidades */
+    transform: skewY(-8deg); /*Inclina el contenedor*/
+  }
+  .content-section_payments{
+    width: 50%
+  }
+  .payments-paragraph{
+    margin: 60px 0px;
+  }
+  .img-hero{
+    margin-left: 200px;
+  }
+  .purple-font {
+    text-decoration: none;
+    color: #6962f7;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .purple-font:hover {
+    color: rgb(68, 92, 112);
   }
 }
 /* ANIMATION BACKGROUND */
