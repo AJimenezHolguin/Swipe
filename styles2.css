@@ -285,12 +285,9 @@ body{
   font-size:15px;
   margin: 30px 0;
 }
-/* .container-paragraphs_3{
-  display:flex;
-  flex-direction: column;
-} */
 
-@media (min-width: 550px) {
+
+@media only screen and (min-width: 551px) {
   .menu {
     padding: 10px 40px 0px 0px;
   }
@@ -357,8 +354,10 @@ body{
   margin-top: 850px;
   padding: 400px 16px 0px;
 }
-.container-paragraphs_3{
-  display:flex;
+
+.container-paragraphs_4{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
   border: 1px solid green; 
 }
 
