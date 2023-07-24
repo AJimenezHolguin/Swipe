@@ -454,6 +454,15 @@
     height: 474px; /* Ajusta la altura según tus necesidades */
     transform: skewY(-8deg); /*Inclina el contenedor*/
   }
+  .content-section_payments{
+    width: 50%
+  }
+  .payments-paragraph{
+    margin: 60px 0px;
+  }
+  .img-hero{
+    margin-left: 200px;
+  }
   .purple-font {
     text-decoration: none;
     color: #6962f7;
