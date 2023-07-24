@@ -132,7 +132,7 @@
   cursor: pointer;
 }
 .button-start_now {
-  margin: 16px 0;
+  margin: 16px auto;
   padding: 7px 14px;
   display: flex;
   font-size: 15px;
@@ -144,40 +144,42 @@
 }
 .images {
   width: 100%;
-  height: 100%;
-  display: flex;
-  padding: 50px 16px 0px;
-  gap: 0 25px;
-}
-.card-phone {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  padding: 30px 16px 0px;
+  gap: 0 25px;
+}
+
+.card-phone {
+  width: 60%;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 35px;
 }
 .credit-card {
-  width: 100%;
-  border-radius: 20px;
+  width: 110%;
+  border-radius: 15px;
 }
 .phone {
-  width: 100%;
+  width: 80%;
 }
 .invoice-dash {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .invoice {
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 20px;
+  width: 125%;
+  margin-bottom: 35px;
+  border-radius: 15px;
 }
 .dash {
-  width: 100%;
-  border-radius: 20px;
+  width: 125%;
+  border-radius: 15px;
 }
 
 @media (min-width: 550px) {
@@ -201,30 +203,30 @@
   .card-phone {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 40%;
+    align-items: center;
+    width: 70%;
     gap: 15px;
   }
   .invoice-dash {
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
   .credit-card {
     height: 100%;
-    border-radius: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
   }
   .phone {
     height: 100%;
   }
   .invoice {
-    height: 100%;
+    height: 300px;
     margin-bottom: 30px;
     border-radius: 20px;
   }
   .dash {
-    height: 100%;
+    height: 300px;
     border-radius: 20px;
   }
 }
@@ -287,21 +289,36 @@
   .col-right {
     width: 49%;
   }
+  .images {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card-phone {
+    width: 40%;
+    margin-right: 30px;
+  }
+  .invoice-dash {
+    width: 44%;
+    margin-left: 25px;
+  }
   .credit-card {
     height: 100%;
     margin-bottom: 15px;
-    border-radius: 40px;
+    border-radius: 15px;
   }
   .phone {
-    height: 100%;
+    height: 480px;
   }
   .invoice {
-    height: 100%;
+    height: 300px;
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
-    height: 100%;
+    height: 300px;
     border-radius: 20px;
   }
 }
@@ -387,38 +404,40 @@
     transform: translate(7px);
     transition: transform 0.25s ease;
   }
-
+  .images {
+    width: 90%;
+    margin: 40px 0px;
+    display: flex;
+    padding: 50px 16px 0px;
+    gap: 0;
+  }
   .card-phone {
-    width: 38%;
+    width: 40%;
     display: flex;
     flex: 0 0 auto;
+    padding: 0 16px;
   }
   .invoice-dash {
-    width: 100%;
-    padding-left: 30px;
+    width: 50%;
+    padding: 0 10px;
+    margin-left: 70px;
   }
   .credit-card {
-    height: 100%;
+    height: 200px;
     margin-bottom: 15px;
     border-radius: 20px;
   }
   .phone {
-    height: 100%;
+    height: 610px;
   }
   .invoice {
-    height: 100%;
+    height: 415px;
     margin-bottom: 35px;
     border-radius: 20px;
   }
   .dash {
-    height: 100%;
+    height: 415px;
     border-radius: 20px;
-  }
-  .images {
-    width: 100%;
-    display: flex;
-    padding: 50px 16px 0px;
-    gap: 0;
   }
 
   .general-container,
@@ -426,7 +445,7 @@
   .designed {
     max-width: 1450px;
     margin: 0 auto;
-    padding: 0 70px;
+    padding: 0 30px;
   }
 }
 /* PANTALLAS MAS GRANDES */
