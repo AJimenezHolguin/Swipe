@@ -144,6 +144,7 @@
 }
 .images {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,13 +174,88 @@
   align-items: center;
 }
 .invoice {
-  width: 125%;
-  margin-bottom: 35px;
-  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
 .dash {
-  width: 125%;
-  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.background-2_3 {
+  background-color: #f7f9fc;
+  max-height: 210px;
+}
+.designed-for_engineers_3 {
+  width: 100%;
+}
+.background-blue {
+  max-width: 100%;
+  height: 100%;
+  background-color: #0a2540;
+  transform: skewY(-9deg) translateY(-5px);
+  z-index: -1;
+}
+.designed {
+  height: 100%;
+  transform: skewY(9deg);
+  padding: 70px 16px 0px;
+}
+.subtitle2 {
+  color: #00d4ff;
+  font-weight: bold;
+  margin: 16px 0;
+}
+.worlds-title {
+  max-width: 100%;
+  font-size: 27px;
+  line-height: 50px;
+  color: #fff;
+}
+.abstract-paragraph {
+  color: #fff;
+  line-height: 24px;
+  margin: 16px 0 25px;
+}
+.start-now3 {
+  margin: 20px 0;
+  padding: 8px 14px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0a2540;
+  border: none;
+  border-radius: 20px;
+  background-color: #00d4ff;
+}
+.tools-custom {
+  width: 50px;
+  margin: 8px 0;
+  margin: 10px 0 3px;
+}
+.title-3 {
+  font-size: 16px;
+  color: #fff;
+}
+.secondary-text {
+  font-size: 14px;
+  color: #adbdcc;
+  margin: 16px 0px;
+}
+.buttons-3 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #00d4ff;
+  background-color: transparent;
+  border: none;
+}
+.img-code_terminal {
+  display: none;
 }
 
 @media (min-width: 550px) {
@@ -228,6 +304,20 @@
   .dash {
     height: 300px;
     border-radius: 20px;
+  }
+  .designed {
+    display: flex;
+    padding-top: 180px;
+  }
+  .img-code_terminal {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    border-radius: 10px;
+  }
+  .section-container_designed,
+  .img-container_designed {
+    width: 50%;
   }
 }
 /* TABLET */
@@ -320,6 +410,40 @@
   .dash {
     height: 300px;
     border-radius: 20px;
+  }
+  .background-blue {
+    height: 1000px;
+  }
+  .designed {
+    gap: 10px;
+  }
+  .two-columns_toolsCustom {
+    display: flex;
+    gap: 10px;
+  }
+  .section-container_designed,
+  .img-container_designed {
+    width: 50%;
+  }
+  .img-code_terminal {
+    width: 95%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .images-container_designed {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .title-3 {
+    font-size: 15px;
+  }
+  .secondary-text {
+    font-size: 12px;
+  }
+  .buttons-3 {
+    font-size: 14px;
   }
 }
 
@@ -447,6 +571,55 @@
     margin: 0 auto;
     padding: 0 30px;
   }
+  .background-blue {
+    height: 1050px;
+    transform: skewY(-10deg) translateY(-20px);
+  }
+  .designed{
+    transform: skewY(10deg);
+  }
+  .section-container_designed,
+  .images-container_designed {
+    padding: 200px 15px;
+  }
+  .worlds-title{
+    font-size: 30px;
+  }
+  .start-now3{
+    margin: 60px 0 45px;
+  }
+  .start-now3:hover {
+    cursor: pointer;
+    background: white;
+  }
+  .start-now3:hover > .arrow-three {
+    transform: translate(7px);
+    transition: transform 0.25s ease;
+  }
+  .buttons-3:hover {
+    cursor: pointer;
+    color: #00d4ff;
+    opacity: 0.7;
+  }
+  .animation-btn3:hover > .arrow-four {
+    transform: translate(7px);
+    transition: transform 0.25s ease;
+  }
+  .images-container_designed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-code_terminal {
+    height: 50%;
+  }
+  .general-container,
+  .unified-section_2,
+  .designed {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
 /* PANTALLAS MAS GRANDES */
 @media (min-width: 1365px) {
@@ -471,6 +644,27 @@
   }
   .purple-font:hover {
     color: rgb(68, 92, 112);
+  }
+
+  .background-blue {
+    transform: skewY(-10deg) translateY(-10px);
+    height: 1150px;
+  }
+  .images-container_designed {
+    display: flex;
+    max-width: 100%;
+    height: 50%;
+  }
+  .section-container_designed,
+  .images-container_designed {
+    padding: 270px 15px 200px;
+  }
+  .start-now3{
+    margin: 60px 0 45px;
+  }
+  .img-code_terminal {
+   
+    height: 300px;
   }
 }
 /* ANIMATION BACKGROUND */
