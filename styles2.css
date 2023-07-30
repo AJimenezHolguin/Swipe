@@ -407,6 +407,36 @@ color: #7000ff;
 background-color: transparent;
 border: none;
 }
+/* SECTION 7 */
+.footer-7{
+  background-color:#f7f9fc;
+}
+.logo-swipe_black{
+  padding-top:40px;
+}
+.titles_7{
+  font-size: 17px;
+  margin:30px 0px;
+}
+.list-7{
+  text-decoration: none;
+  color: black;
+  line-height:30px;
+  font-size: 12px;
+}
+.list-general{
+  list-style: none;
+}
+.icon-07_footer{
+  width:23px
+}
+.container-general_7{
+  display:grid;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 15px 16px 0;
+  margin-top: 30px;
+  
+}
 
 @media (min-width: 550px) {
 
@@ -505,9 +535,14 @@ border: none;
     height:890px;
     }
     /* SECTION 6 */
-    .img-sessions{
+  .img-sessions{
       width: 480px;
-    }
+  }
+    /* SECTION 7 */
+  .container-general_7{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
 }
 
 /* TABLET */
@@ -930,15 +965,26 @@ border: none;
     justify-content: center;
     align-items:flex-start;
   }
+  .column-one,.column-two{
+    padding: 0 16px;
+    }
   .general-container,
   .unified-section_2,
   .designed,
-  .why-swipe,.container-general_5,.container-general_6 {
+  .why-swipe,.container-general_5,.container-general_6,.container-general_7 {
     max-width: 1450px;
     margin: 0 auto;
     padding: 0 15px;
   }
- 
+  /* SECTION 7 */
+  .footer-7{
+    margin-top: 70px;
+    padding: 0 16px
+  }
+  .list-7:hover{
+     text-decoration: underline;
+     color:purple; 
+  }
 }
 /* PANTALLAS MAS GRANDES */
 @media (min-width: 1365px) {
