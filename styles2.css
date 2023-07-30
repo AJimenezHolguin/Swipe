@@ -288,7 +288,6 @@ body {
 /* SECTION 5 */
 .global-scale {
   height:1050px;
-  border: 1px solid orangered;
 }
 .background-5 {
   height: 250px;
@@ -303,7 +302,7 @@ body {
   background-color: #0a2540;
   transform: translateY(-190px);
   z-index: -1;
-  position: relative;
+  /* position: relative; */
   overflow-x: hidden;
 }
 .container-one_section5 {
@@ -312,7 +311,7 @@ body {
 .glo-scale {
   font-size: 17px;
   color: #00d4ff;
-  /* margin-top: 50px; */
+
 }
 .title-a_structure {
   font-size: 28px;
@@ -347,6 +346,66 @@ body {
   border-left: 2px solid #00d4ff;
   margin: 37px 0;
   padding-left: 15px;
+}
+/* SECTION 06 */
+.container-general_6{
+  padding:0 16px;
+}
+.paragraph-virtual{
+  color:#6962f7;
+  margin:30px 0px 0px;
+}
+.sub-title_check,.sub-title_6{
+  font-size: 30px;
+  line-height: 45px;
+  margin: 25px 0;
+}
+.swipe-text{
+  text-decoration: none;
+  color:#6962f7;
+}
+.img-sessions{
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+  border-radius:15px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3); 
+}
+.paragraph-swipe_06,.paragraph-explore{
+  line-height: 26px;
+}
+.button-06{
+  margin: 20px 0;
+  padding: 7px 14px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #6962f7;
+ 
+}
+.icon_06{
+  width: 50px;
+  margin-top:35px;
+}
+.subtitle_06{
+  margin: 5px 0;
+}
+.paragraph-integrated_get{
+  margin: 25px 0px;
+  color: #ADBDCC;
+}
+.button-06_pricing_api {
+display: flex;
+align-items: center;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+color: #7000ff;
+background-color: transparent;
+border: none;
 }
 
 @media (min-width: 550px) {
@@ -437,9 +496,6 @@ body {
   .background-5_2 {
     transform: translateY(-160px);
     height:840px;
-    /* background-color: #0a2540; */
-    /* transform: skewY(-9deg) translateY(-5px); */
-    /* position: relative; */
     z-index: -1;
   }
   .container-one_section5{
@@ -448,7 +504,10 @@ body {
   .global-scale {
     height:890px;
     }
-    
+    /* SECTION 6 */
+    .img-sessions{
+      width: 480px;
+    }
 }
 
 /* TABLET */
@@ -600,6 +659,28 @@ body {
     grid-template-columns: repeat(2, 2fr);
     gap:20px;
   }
+  /* SECTION 6 */
+  .container-general_6{
+    margin-top: 120px;
+  }
+  .column-one,.column-two{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+  }
+  .img-sessions{
+    width: 360px;
+    margin-top: 30px;
+  }
+  .column-one{
+    margin-bottom: 40px
+  }
+  .waiting-for{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
 }
 
 /* DESKTOP SCREEN */
@@ -608,7 +689,6 @@ body {
     height: 430px; /* Ajusta la altura según tus necesidades */
     transform: skewY(-9deg); /* Inclina el contenedor */
   }
-
   .letter {
     color: white;
     font-weight: bold;
@@ -718,14 +798,6 @@ body {
     height: 415px;
     border-radius: 20px;
   }
-
-  .general-container,
-  .unified-section_2,
-  .designed {
-    max-width: 1450px;
-    margin: 0 auto;
-    padding: 0 30px;
-  }
   .background-blue {
     height: 1050px;
     transform: skewY(-10deg) translateY(-20px);
@@ -814,10 +886,16 @@ body {
   }
   .global-scale{
     height:820px;
+    margin-top:60px;
   }
   .background-5_2{
     height:700px;
   }
+  .startups:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
   .img-global{
     width:700px;
     transform:translateX(600px) translateY(-80px);
@@ -829,15 +907,38 @@ body {
     margin-top:40px;
     gap:30px;
   }
-
+ /* SECTION 6 */
+ .button-06,.button-06_pricing_api{
+  cursor:pointer;
+ }
+ .button-06:hover{
+  background-color: #0a2540;
+ }
+ .button-06_pricing_api:hover{
+  opacity: 0.8;
+ }
+ .animation-btn6:hover>.arrow-06{
+  transform: translate(7px);
+  transition: transform 0.25s ease;
+ }
+ .img-sessions{
+    width: 450px;
+  }
+  .check{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
   .general-container,
   .unified-section_2,
   .designed,
-  .why-swipe,.container-general_5 {
+  .why-swipe,.container-general_5,.container-general_6 {
     max-width: 1450px;
     margin: 0 auto;
     padding: 0 15px;
   }
+ 
 }
 /* PANTALLAS MAS GRANDES */
 @media (min-width: 1365px) {
@@ -883,12 +984,15 @@ body {
   .img-code_terminal {
     height: 300px;
   }
-  .background-5{
-    height:390px;
+  .why-swipe{
+    padding-top:80px;
   }
-  /* .background-5_2{
-    transform:
-  } */
+  .background-5{
+    height:440px;
+  }
+  .background-5_2 {
+    transform: translateY(-210px);
+  }
   .global-scale{
     height:820px;
     margin-top:100px;
@@ -900,6 +1004,13 @@ body {
   }
   .container-two_card{
     margin-top:100px;
+  }
+  /* SECTION 6 */
+  .img-sessions{
+    width: 580px;
+  }
+  .container-general_6{
+    margin-top: 130px;
   }
 }
 /* ANIMATION BACKGROUND */
